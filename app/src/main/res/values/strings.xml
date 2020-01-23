@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">Calculadora</string>
+    <string name="nombre">Clic aquí para digitar el número</string>
+    <string name="Nombrebtn">Convertir Numero</string>
+    <string name="Nombrebtn2">Siguiente pagina</string>
+
+
+    <string name="title_activity_activity_dos">ActivityDos</string>
+    <string name="radioSum">Sumar</string>
+    <string name="radioRes">Restar</string>
+    <string name="numero1">Digite el primer numero</string>
+    <string name="numero2">Digite el segundo numero</string>
+    <string name="Boton">Operar</string>
+</resources>

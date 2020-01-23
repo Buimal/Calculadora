@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/texto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:singleLine="false"
+        android:text="\n Convertidor de números \n"
+        android:textColor="#000000"
+        android:textSize="28dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:text="Seleccione el formato del número a ingresar :"
+        android:textColor="#000000" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButtonEntero"
+            android:text="Entero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        />
+
+        <RadioButton
+            android:id="@+id/radioButtonBinario"
+            android:text="Binario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        />
+
+        <RadioButton
+            android:id="@+id/radioButtonHexa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hexa" />
+
+
+        <RadioButton
+            android:id="@+id/radioButtonOcta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Octal" />
+
+    </RadioGroup>
+
+
+    <EditText
+        android:id="@+id/Txtnombre"
+        android:hint="@string/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="\nSeleccione el formato al cual desea convertir el número digitado :"
+        android:textColor="#000000" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButtonEntero1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Entero" />
+
+        <RadioButton
+            android:id="@+id/radioButtonBinario1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Binario" />
+
+        <RadioButton
+            android:id="@+id/radioButtonHexa1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hexa" />
+
+        <RadioButton
+            android:id="@+id/radioButtonOcta1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Octal" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/Btnenviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_dark"
+        android:text="@string/Nombrebtn" />
+
+    <TextView
+        android:id="@+id/lblsalida"
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+        android:clickable="false"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold|italic"
+        android:gravity="center"/>
+
+
+    <Button
+        android:id="@+id/BtnPasar"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Nombrebtn2" />
+
+
+
+</LinearLayout>

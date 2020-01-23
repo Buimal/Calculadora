@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="miaplicacionputito.com.myapplicationtestcjb.ActivityDos">
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:text="@string/radioSum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:text="@string/radioRes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/TxtNumero1"
+        android:hint="@string/numero1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+    />
+
+    <EditText
+        android:id="@+id/TxtNumero2"
+        android:hint="@string/numero2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+    />
+
+    <Button
+        android:id="@+id/BtnOperar"
+        android:text="@string/Boton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    />
+
+    <TextView
+        android:id="@+id/ResultadoS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    />
+
+</LinearLayout>
